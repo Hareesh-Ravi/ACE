@@ -1,6 +1,5 @@
 # ACE - Anti-forensic Contrast Enhancement
-This repository has the code to the process of anti-forensically enhancing the contrast of an image as described in the paper "ACE - An Effective
-Anti-forensic Contrast Enhancement Technique".
+This repository has the code to the process of anti-forensically enhancing the contrast of an image as described in the paper "ACE - An Effective Anti-forensic Contrast Enhancement Technique" ( [PDF](https://ieeexplore.ieee.org/document/7359180) ).
 
 
 ## Reference
