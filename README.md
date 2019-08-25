@@ -1,5 +1,5 @@
 # ACE - Anti-forensic Contrast Enhancement
-This repository has the code to the process of anti-forensically enhancing the contrast of an image as described in the paper "ACE - An Effective Anti-forensic Contrast Enhancement Technique" ( [PDF](https://ieeexplore.ieee.org/document/7359180) ).
+This repository has the code to the process of anti-forensically enhancing the contrast of an image as described in the paper "ACE - An Effective Anti-forensic Contrast Enhancement Technique" ( [PDF](https://ieeexplore.ieee.org/document/7359180) ). If you use this code, please cite the following paper as,
 
 
 ## Reference
@@ -17,15 +17,13 @@ ISSN={1070-9908},
 month={Feb},}
 ```
 
-## Instructions
+## Usage
 ```
 normal_enhanced, antiforensic_enhanced = perform_CE(input_image, gamma) 
 ```
-The main code is Perform_CE to which the input is an image and output is the
-anti forensically contrast enhanced image. Look inside the codes for various
-comments on what the input and outputs are and how to use them. 
 
-The main function uses 'Anti_TV' that performs the 
+The input is an image that you want to enhance and output is the
+anti forensically contrast enhanced image. The main function uses ```Anti_TV.m``` that performs the 
 actual TV norm based optimization as described in the paper
 
 
